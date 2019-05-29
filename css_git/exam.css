@@ -1,0 +1,681 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-BlackItalic.eot');
+    src: url('Poppins-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-BlackItalic.woff2') format('woff2'),
+        url('Poppins-BlackItalic.woff') format('woff'),
+        url('Poppins-BlackItalic.ttf') format('truetype'),
+        url('Poppins-BlackItalic.svg#Poppins-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Black.eot');
+    src: url('Poppins-Black.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Black.woff2') format('woff2'),
+        url('Poppins-Black.woff') format('woff'),
+        url('Poppins-Black.ttf') format('truetype'),
+        url('Poppins-Black.svg#Poppins-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.eot');
+    src: url('Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Regular.woff2') format('woff2'),
+        url('Poppins-Regular.woff') format('woff'),
+        url('Poppins-Regular.ttf') format('truetype'),
+        url('Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ThinItalic.eot');
+    src: url('Poppins-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-ThinItalic.woff2') format('woff2'),
+        url('Poppins-ThinItalic.woff') format('woff'),
+        url('Poppins-ThinItalic.ttf') format('truetype'),
+        url('Poppins-ThinItalic.svg#Poppins-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-BoldItalic.eot');
+    src: url('Poppins-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-BoldItalic.woff2') format('woff2'),
+        url('Poppins-BoldItalic.woff') format('woff'),
+        url('Poppins-BoldItalic.ttf') format('truetype'),
+        url('Poppins-BoldItalic.svg#Poppins-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-SemiBold.eot');
+    src: url('Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-SemiBold.woff2') format('woff2'),
+        url('Poppins-SemiBold.woff') format('woff'),
+        url('Poppins-SemiBold.ttf') format('truetype'),
+        url('Poppins-SemiBold.svg#Poppins-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Bold.eot');
+    src: url('Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Bold.woff2') format('woff2'),
+        url('Poppins-Bold.woff') format('woff'),
+        url('Poppins-Bold.ttf') format('truetype'),
+        url('Poppins-Bold.svg#Poppins-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Thin.eot');
+    src: url('Poppins-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Thin.woff2') format('woff2'),
+        url('Poppins-Thin.woff') format('woff'),
+        url('Poppins-Thin.ttf') format('truetype'),
+        url('Poppins-Thin.svg#Poppins-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Italic.eot');
+    src: url('Poppins-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Italic.woff2') format('woff2'),
+        url('Poppins-Italic.woff') format('woff'),
+        url('Poppins-Italic.ttf') format('truetype'),
+        url('Poppins-Italic.svg#Poppins-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-MediumItalic.eot');
+    src: url('Poppins-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-MediumItalic.woff2') format('woff2'),
+        url('Poppins-MediumItalic.woff') format('woff'),
+        url('Poppins-MediumItalic.ttf') format('truetype'),
+        url('Poppins-MediumItalic.svg#Poppins-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ExtraLight.eot');
+    src: url('Poppins-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-ExtraLight.woff2') format('woff2'),
+        url('Poppins-ExtraLight.woff') format('woff'),
+        url('Poppins-ExtraLight.ttf') format('truetype'),
+        url('Poppins-ExtraLight.svg#Poppins-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-LightItalic.eot');
+    src: url('Poppins-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-LightItalic.woff2') format('woff2'),
+        url('Poppins-LightItalic.woff') format('woff'),
+        url('Poppins-LightItalic.ttf') format('truetype'),
+        url('Poppins-LightItalic.svg#Poppins-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Medium.eot');
+    src: url('Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Medium.woff2') format('woff2'),
+        url('Poppins-Medium.woff') format('woff'),
+        url('Poppins-Medium.ttf') format('truetype'),
+        url('Poppins-Medium.svg#Poppins-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ExtraLightItalic.eot');
+    src: url('Poppins-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-ExtraLightItalic.woff2') format('woff2'),
+        url('Poppins-ExtraLightItalic.woff') format('woff'),
+        url('Poppins-ExtraLightItalic.ttf') format('truetype'),
+        url('Poppins-ExtraLightItalic.svg#Poppins-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-SemiBoldItalic.eot');
+    src: url('Poppins-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-SemiBoldItalic.woff2') format('woff2'),
+        url('Poppins-SemiBoldItalic.woff') format('woff'),
+        url('Poppins-SemiBoldItalic.ttf') format('truetype'),
+        url('Poppins-SemiBoldItalic.svg#Poppins-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ExtraBoldItalic.eot');
+    src: url('Poppins-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-ExtraBoldItalic.woff2') format('woff2'),
+        url('Poppins-ExtraBoldItalic.woff') format('woff'),
+        url('Poppins-ExtraBoldItalic.ttf') format('truetype'),
+        url('Poppins-ExtraBoldItalic.svg#Poppins-ExtraBoldItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-ExtraBold.eot');
+    src: url('Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-ExtraBold.woff2') format('woff2'),
+        url('Poppins-ExtraBold.woff') format('woff'),
+        url('Poppins-ExtraBold.ttf') format('truetype'),
+        url('Poppins-ExtraBold.svg#Poppins-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Light.eot');
+    src: url('Poppins-Light.eot?#iefix') format('embedded-opentype'),
+        url('Poppins-Light.woff2') format('woff2'),
+        url('Poppins-Light.woff') format('woff'),
+        url('Poppins-Light.ttf') format('truetype'),
+        url('Poppins-Light.svg#Poppins-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* ^ FONTS ^ */
+
+html {
+	font-family: "Poppins", arial;
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	max-width: 1200px;
+	position: relative;
+}
+
+/* HEADER */
+
+.entete {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	display: flex;
+	margin-left: 0;
+}
+
+.logo > div > p:first-child {
+	font-weight: bold;
+}
+
+.logo > div > p:last-child {
+	color: #4A4A4C;
+	margin-top: -14px;
+	font-size: 11px;
+}
+
+.logo > div > img {
+	height: 50px;
+}
+
+.menu {
+	margin-right: 0;
+}
+
+.menu_entete_ul {
+	margin: 30px;
+	margin-right: 0;
+}
+
+.menu_entete_ul > li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline;
+	color: #4A4A4C;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 10px; 
+}
+
+.menu_entete_ul > li > a {
+	text-decoration: none;
+	color: #4A4A4C;
+}
+
+/* MAIN */
+
+main {
+	margin-top: 60%;
+}
+
+/* BANDEAU IMAGE */
+
+.bandeau_image {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.bandeau_image > .div_img {
+	margin: 0;
+	height: auto;
+}
+
+.bandeau_image > .div_img > img {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.bandeau_image > div > p:first-child {
+	font-weight: bold;
+	font-size: 36px;
+	color: #4A4A4C;
+	position: absolute;
+	top: 22%;
+	left: 34%;
+	width: 25%;
+}
+
+/* MEDIA QUERY FIRST CHILD */
+
+@media screen and (max-width: 1100px){
+    .bandeau_image > div > p:first-child{
+		font-weight: bold;
+		font-size: 30px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 21%;
+		left: 34%;
+		width: 25%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .bandeau_image > div > p:first-child{
+		font-weight: bold;
+		font-size: 28px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 19%;
+		left: 34%;
+		width: 25%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .bandeau_image > div > p:first-child{
+		font-weight: bold;
+		font-size: 19px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 21%;
+		left: 37%;
+		width: 20%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .bandeau_image > div > p:first-child{
+		font-weight: bold;
+		font-size: 19px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 18%;
+		left: 36%;
+		width: 20%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .bandeau_image > div > p:first-child{
+		font-weight: bold;
+		font-size: 18px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 17%;
+		left: 36%;
+		width: 20%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .bandeau_image > div > p:first-child{
+		font-weight: bold;
+		font-size: 14px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 17%;
+		left: 34%;
+		width: 27%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .bandeau_image > div > p:first-child{
+		font-weight: bold;
+		font-size: 14px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 18%;
+		left: 34%;
+		width: 27%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .bandeau_image > div > p:first-child{
+		font-weight: bold;
+		font-size: 14px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 15%;
+		left: 34%;
+		width: 27%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .bandeau_image > div > p:first-child{
+		font-weight: bold;
+		font-size: 11px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 16%;
+		left: 34%;
+		width: 27%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .bandeau_image > div > p:first-child{
+		font-weight: bold;
+		font-size: 9px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 20%;
+		left: 34%;
+		width: 26%;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .bandeau_image > div > p:first-child{
+		font-weight: bold;
+		font-size: 8px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 15%;
+		left: 34%;
+		width: 27%;
+    }
+}
+
+/* MEDIA QUERY LAST CHILD */
+
+.bandeau_image > div > p:last-child {
+	font-weight: bold;
+	font-size: 36px;
+	color: #4A4A4C;
+	position: absolute;
+	top: 44%;
+	left: 41%;
+	width: 40%;
+}
+
+@media screen and (max-width: 1100px){
+    .bandeau_image > div > p:last-child{
+		font-weight: bold;
+		font-size: 30px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 40%;
+		left: 41%;
+		width: 25%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .bandeau_image > div > p:last-child{
+		font-weight: bold;
+		font-size: 28px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 36%;
+		left: 41%;
+		width: 25%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .bandeau_image > div > p:last-child{
+		font-weight: bold;
+		font-size: 19px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 37%;
+		left: 43%;
+		width: 28%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .bandeau_image > div > p:last-child{
+		font-weight: bold;
+		font-size: 19px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 32%;
+		left: 42%;
+		width: 28%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .bandeau_image > div > p:last-child{
+		font-weight: bold;
+		font-size: 14px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 27%;
+		left: 42%;
+		width: 27%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .bandeau_image > div > p:last-child{
+		font-weight: bold;
+		font-size: 14px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 26%;
+		left: 40%;
+		width: 27%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .bandeau_image > div > p:last-child{
+		font-weight: bold;
+		font-size: 14px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 24%;
+		left: 40%;
+		width: 27%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .bandeau_image > div > p:last-child{
+		font-weight: bold;
+		font-size: 12px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 23%;
+		left: 41%;
+		width: 27%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .bandeau_image > div > p:last-child{
+		font-weight: bold;
+		font-size: 9px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 26%;
+		left: 41%;
+		width: 27%;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .bandeau_image > div > p:last-child{
+		font-weight: bold;
+		font-size: 8px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 22%;
+		left: 34%;
+		width: 27%;
+    }
+}
+
+@media screen and (max-width: 250px){
+    .bandeau_image > div > p:last-child{
+		font-weight: bold;
+		font-size: 8px;
+		color: #4A4A4C;
+		position: absolute;
+		top: 30%;
+		left: 34%;
+		width: 27%;
+    }
+}
+
+/* ^ BANDEAU IMAGE ^ */
+
+.services {
+	margin: 0;
+	flex-wrap: wrap;
+	display: flex;
+}
+
+.services > div > h1 {
+	font-size: 40px;
+	color: #4A4A4C;
+}
+
+@media screen and (max-width: 600px){
+    .services > div > h1 {
+		font-size: 30px;
+		color: #4A4A4C;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .services > div > h1 {
+		font-size: 20px;
+		color: #4A4A4C;
+    }
+}
+
+.menu_main_div {
+	width: 100%;
+}
+
+.menu_main_ul {
+	display: flex;
+	font-weight: bold;
+	flex-wrap: wrap;
+	justify-content: left;
+	margin: 0;
+	padding: 0;
+}
+
+.menu_main_ul > li {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 30px;
+	width: 30%;
+	margin: 10px;
+	align-items: center;
+}
+
+@media screen and (max-width: 600px){
+    .menu_main_ul > li {
+		list-style-type: none;
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 25px;
+		width: 20%;
+		margin: 50px;
+		align-items: center;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .menu_main_ul > li {
+		list-style-type: none;
+		display: flex;
+		flex-wrap: wrap;
+		font-size: 20px;
+		width: 20%;
+		margin: 50px;
+		align-items: center;
+    }
+}
+
+.menu_main_ul > li > img {
+	height: 100px;
+	display: flex;
+}
+
+/* */
